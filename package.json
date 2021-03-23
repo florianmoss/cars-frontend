@@ -13,9 +13,9 @@
     "yarn": "^1.22.10"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "REACT_APP_URL=$REACT_APP_URL react-scripts start",
+    "build": "REACT_APP_URL=$REACT_APP_URL react-scripts build",
+    "test": "REACT_APP_URL=$REACT_APP_URL react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
