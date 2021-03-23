@@ -11,7 +11,7 @@ function App() {
 
   useEffect(() => {
     setAppState({ loading: true });
-    const apiUrl = {process.env.backendURL};
+    const apiUrl = {process.env.REACT_APP_URL};
     fetch(apiUrl)
       .then((res) => res.json())
       .then((cars) => {
