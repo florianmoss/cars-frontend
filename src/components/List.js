@@ -10,8 +10,9 @@ const List = (props) => {
           <li key={car.car_id} className='list'>
             <span className='car-brand'>{car.brand} </span>
             <span className='car-make'>{car.make}</span>
-            <span className='car-price'>{car.price}</span>
-            <span className='car-image'>{car.image}</span>
+            <span className='car-price'>{car.price} Euro</span>
+            <br></br>
+            <span className='car-image'><img src={car.image} alt=' ' width="250"></img></span>
           </li>
         );
       })}

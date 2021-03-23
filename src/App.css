@@ -36,20 +36,16 @@
 }
 .car-brand {
   font-weight: 600;
+  margin-right: 10px;
 }
 .car-make {
   font-weight: 600;
   font-style: bold;
   color: var(--basic-color);
+  margin-right: 10px;
 }
 .car-price {
   font-weight: 600;
-}
-
-.car-image {
-  font-weight: 600;
-  font-style: bold;
-  color: var(--basic-color);
 }
 
 .list-head {
