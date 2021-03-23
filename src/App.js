@@ -11,7 +11,7 @@ function App() {
 
   useEffect(() => {
     setAppState({ loading: true });
-    const apiUrl = `http://cars-backend-git-demo.apps.yonah.demolab.local/cars`;
+    const apiUrl = `process.env.backendURL`;
     fetch(apiUrl)
       .then((res) => res.json())
       .then((cars) => {
