@@ -1,5 +1,5 @@
 # Stage 1: Use yarn to build the app
-FROM ubi8/nodejs-14 as builder
+FROM quay.io/app-sre/ubi8-nodejs-14 as builder
 WORKDIR /usr/src/app
 COPY package.json yarn.lock ./
 RUN yarn
